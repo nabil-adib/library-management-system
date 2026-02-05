@@ -1,7 +1,7 @@
 # Library Management System
 
 
-This Java application simplifies library management tasks. It provides a user-friendly graphical user interface (GUI) for librarians, students, and administrators to perform essential library operations. The system now includes an Oracle 10g database for robust data management and introduces a new Publisher entity for enhanced book tracking.
+This Java-based application streamlines library management operations through a clean and user-friendly graphical user interface (GUI). It enables librarians, students, and administrators to efficiently handle core library activities such as book management, user records, and transactions. The system uses a MySQL database managed via phpMyAdmin for reliable data storage and retrieval, and introduces a dedicated Publisher entity to improve book organization and tracking.
 
 ## Features
 
@@ -28,15 +28,17 @@ This Java application simplifies library management tasks. It provides a user-fr
 ## Screenshots
 ## Technologies Used
     * Programming Language: Java
-    * Database: Oracle 10g
+    * Database: MySQL
+    * Database Management Tool: phpMyAdmin
+    * Server Environment: XAMPP
     * GUI Framework: Java Swing
     * Version Control: Git
 ## Installation and Setup
-    * Set Up Oracle 10g Database: Install Oracle 10g and configure the database.
-                                  Import the provided SQL scripts to set up the necessary tables.
+    * Set Up MySQL Database: Install XAMPP and start the Apache and MySQL services.
+                             Open phpMyAdmin and create a new database.
+                             Import the provided SQL file to generate the required tables.
     * Configure Database Connection: Update the database connection details in the DatabaseConnection.java file.
-                                     Compile and run the project using an IDE like IntelliJ IDEA or Eclipse.
-    * Run the Application
+    * Run the Application: Compile and run the project using an IDE like IntelliJ IDEA or Eclipse.ompile and run the project using an IDE like IntelliJ IDEA or Eclipse.
 
 # Maintainer
 * **Md. Nabil Adibur Rahman - [NabilAdib14](https://github.com/NabilAdib14)**
